@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F8FF"/>
+      <stop offset="0.6" stop-color="#E8F2FF"/>
+      <stop offset="1" stop-color="#FDF4FF"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 230) rotate(26) scale(560 380)">
+      <stop stop-color="#7CC8FF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#7CC8FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1240 640) rotate(-22) scale(620 400)">
+      <stop stop-color="#FFA9D4" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FFA9D4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wave" x1="80" y1="130" x2="1520" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7BA9FF" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#6EE8C3" stop-opacity="0.34"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <ellipse cx="340" cy="220" rx="560" ry="360" fill="url(#glowA)"/>
+  <ellipse cx="1260" cy="650" rx="610" ry="390" fill="url(#glowB)"/>
+  <path d="M-80 620C140 510 330 500 520 560C730 626 900 732 1150 710C1360 692 1500 585 1680 520V980H-80V620Z" fill="url(#wave)"/>
+  <path d="M-40 710C160 628 354 638 540 700C760 772 932 864 1180 836C1372 814 1514 746 1660 690" stroke="#4E7DDB" stroke-opacity="0.35" stroke-width="5"/>
+  <g opacity="0.18">
+    <circle cx="240" cy="690" r="9" fill="#4F85EA"/>
+    <circle cx="300" cy="728" r="6" fill="#4F85EA"/>
+    <circle cx="1360" cy="240" r="8" fill="#EF70B7"/>
+    <circle cx="1422" cy="198" r="5" fill="#EF70B7"/>
+  </g>
+</svg>
