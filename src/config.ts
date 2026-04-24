@@ -8,11 +8,11 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "나현블로그",
+	title: "Hyun-LOG",
 	subtitle: "student",
 	lang: "ko", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
-		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+		hue: 340, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
@@ -60,9 +60,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar-light.svg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	avatarLight: "assets/images/avatar-light.svg", // (Optional) Profile image used in light mode. Fallbacks to `avatar` when omitted
-	avatarDark: "assets/images/avatar-dark.svg", // (Optional) Profile image used in dark mode. Fallbacks to `avatar` when omitted
+	avatar: "assets/images/avatar-room.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatarLight: "assets/images/avatar-room.png", // (Optional) Profile image used in light mode. Fallbacks to `avatar` when omitted
+	avatarDark: "assets/images/avatar-room.png", // (Optional) Profile image used in dark mode. Fallbacks to `avatar` when omitted
 	name: "이나현",
 	bio: "student",
 	links: [
