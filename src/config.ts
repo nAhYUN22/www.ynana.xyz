@@ -17,9 +17,9 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/banner-light.svg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-		srcLight: "assets/images/banner-light.svg", // (Optional) Banner image used in light mode. Fallbacks to `src` when omitted
-		srcDark: "assets/images/banner-dark.svg", // (Optional) Banner image used in dark mode. Fallbacks to `src` when omitted
+		src: "assets/images/banner-room.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		srcLight: "assets/images/banner-room.png", // (Optional) Banner image used in light mode. Fallbacks to `src` when omitted
+		srcDark: "assets/images/banner-room.png", // (Optional) Banner image used in dark mode. Fallbacks to `src` when omitted
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
